@@ -5,9 +5,7 @@ import { Link } from 'react-scroll'
 const Banner = () => {
   return (
     <div>
-
       <Box
-
         backgroundImage="url('https://is2-ssl.mzstatic.com/image/thumb/Features112/v4/a1/fb/e7/a1fbe76c-a6b8-248b-e19a-63bc94588caf/0ab1a582-f500-4585-a68e-5c5c7c6e1b7c.png/1998x1124sr.jpg')"
         backgroundPosition="center"
         backgroundRepeat="no-repeat"
@@ -17,7 +15,6 @@ const Banner = () => {
         position={'relative'}
         borderBottom={'10px solid  #0d0d0d'}
       >
-
         <Box 
         color={'white'} 
         position={'absolute'}
@@ -35,9 +32,7 @@ const Banner = () => {
         <Link activeClass="active" to="content" spy={true} smooth={true} offset={50} duration={500} cursor={'pointer'}><TriangleDownIcon position={'absolute'} bottom={'2%'} left={'50%'} color={'white'}/></Link>
       </Box>
     </div>
-
   );
-
 };
-// https://github.com/Supriyakaa/polite-sheep-7319.git
+
 export default Banner;

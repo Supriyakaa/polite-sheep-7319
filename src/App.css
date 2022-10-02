@@ -1,7 +1,9 @@
 .App {
+  scroll-behavior: smooth;
+}
+html{
   text-align: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +37,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.scard{
+  margin-top: 20px;
+}
+.scard img{
+  width: 270px;
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.mcard{
+  margin-top: 20px;
+}
+.mcard img{
+  width: 350px;
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.bcard{
+  width: 100vw;
+  margin-top: 20px;
+  z-index: 12;
+}
+.bcard img{
+  width: 90vw;
+  /* height: 85vh; */
+  margin: auto;
+  background-color:rgba(0, 0, 0, 1);
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.searchcard{
+  border-radius: 15px;
 }

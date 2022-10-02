@@ -1,6 +1,5 @@
 import React from 'react';
-import { background, Box, Image, Text } from '@chakra-ui/react';
-
+import { background, Box, Image, Text } from '@chakra-ui/react'
 const Footer = () => {
     return (
         <Box bg={'black'} 

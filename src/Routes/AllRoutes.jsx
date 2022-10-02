@@ -7,16 +7,13 @@ import SingleMovie from '../Pages/SingleMovie';
 
 
 const AllRoutes = () => {
-
     return (
         <Routes>
             <Route path='/' element={<HomePage />} />
             <Route path='/search' element={<SearchPage/>} />
             <Route path='/SingleMovie/:id' element={<SingleMovie/>}></Route>
         </Routes>
-
     );
-    
 }
 
 export default AllRoutes;
